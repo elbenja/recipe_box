@@ -32,7 +32,6 @@ class RecipesController < ApplicationController
  		@recipe.destroy
 		redirect_to root_path, notice: "Successfully deleted Recipe"
 
-		
 	end
 
 
